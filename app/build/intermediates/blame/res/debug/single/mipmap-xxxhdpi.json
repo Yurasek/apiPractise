@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\AndroidProject\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_arrow_back.png",
+        "source": "C:\\AndroidProject\\MyApplication2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_arrow_back.png"
+    },
+    {
+        "merged": "C:\\AndroidProject\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_action_chevron_left.png",
+        "source": "C:\\AndroidProject\\MyApplication2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_action_chevron_left.png"
+    },
+    {
+        "merged": "C:\\AndroidProject\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "C:\\AndroidProject\\MyApplication2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\AndroidProject\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\AndroidProject\\MyApplication2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

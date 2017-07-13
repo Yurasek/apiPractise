@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="настройки местоположения">
+        <ListPreference
+            android:key="pref_select_city"
+            android:title="@string/pref_city"
+            android:dialogTitle="@string/pref_city"
+            android:summary="Выберите город"
+            android:entries="@array/pref_city_values"
+            android:entryValues="@array/pref_city_values"
+            android:defaultValue="@string/pref_city_default"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="настройки вывода">
+
+        <ListPreference
+            android:key="pref_select_mnt"
+            android:title="Количество дней"
+            android:summary="число дней для прогноза"
+            android:dialogTitle="Количество дней"
+            android:entries="@array/pref_amount_values"
+            android:entryValues="@array/pref_amount_cnt"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

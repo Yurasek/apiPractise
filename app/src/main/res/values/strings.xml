@@ -1,0 +1,32 @@
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_city">Город</string>
+    <string name="pref_city_default">Добрянка</string>
+
+    <string-array name="pref_city_values">
+        <item>Кинешма</item>
+        <item>Астрахань</item>
+        <item>Елабуга</item>
+        <item>Добрянка</item>
+        <item>Осло</item>
+    </string-array>
+
+    <string-array name="pref_amount_values">
+        <item>на 1 день</item>
+        <item>на 2 дня</item>
+        <item>на 3 дня</item>
+        <item>на 4 дня</item>
+        <item>на 5 дней</item>
+    </string-array>
+
+    <string-array name="pref_amount_cnt">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+</resources>
