@@ -1,14 +1,3 @@
-/**
- * This is a tutorial source code 
- * provided "as is" and without warranties.
- *
- * For any question please visit the web site
- * http://www.survivingwithandroid.com
- *
- * or write an email to
- * survivingwithandroid@gmail.com
- *
- */
 package com.example.myapplication.model;
 
 import java.text.SimpleDateFormat;
@@ -118,8 +107,6 @@ public class Weather {
 		public void setDeg(float deg) {
 			this.deg = deg;
 		}
-		
-		
 	}
 	
 	public  class Rain {
@@ -137,9 +124,6 @@ public class Weather {
 		public void setAmmount(float ammount) {
 			this.ammount = ammount;
 		}
-		
-		
-		
 	}
 
 	public  class Snow {
@@ -158,8 +142,6 @@ public class Weather {
 		public void setAmmount(float ammount) {
 			this.ammount = ammount;
 		}
-		
-		
 	}
 	
 	public  class Clouds {
@@ -172,8 +154,7 @@ public class Weather {
 		public void setPerc(int perc) {
 			this.perc = perc;
 		}
-		
-		
+
 	}
 
 }
