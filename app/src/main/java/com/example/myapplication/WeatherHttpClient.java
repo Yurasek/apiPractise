@@ -12,8 +12,6 @@ public class WeatherHttpClient {
 	private static String APP_ID = "&appid=ed1fcbcb3471142d64350aa40ad8e008";
 	private static String UNITS = "&units=metric&cnt=";
 	private static String LANG = "&lang=ru";
-
-	
 	public String getWeatherData(String location, String mnt) {
 		HttpURLConnection connection = null ;
 		InputStream is = null;
