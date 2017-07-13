@@ -1,14 +1,3 @@
-/**
- * This is a tutorial source code 
- * provided "as is" and without warranties.
- *
- * For any question please visit the web site
- * http://www.survivingwithandroid.com
- *
- * or write an email to
- * survivingwithandroid@gmail.com
- *
- */
 package com.example.myapplication;
 
 import java.io.BufferedReader;
@@ -17,8 +6,6 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
-
-//класс для получения json строки
 
 public class WeatherHttpClient {
 	private static String BASE_URL = "http://api.openweathermap.org/data/2.5/forecast/daily?q=";
