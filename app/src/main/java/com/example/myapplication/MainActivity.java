@@ -24,8 +24,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
-    public final String EXTRA_CITY = "city";
-    public final String EXTRA_AMOUNT = "amountDay";
 
     private ArrayList<String> groups = new ArrayList<String>();
     private ArrayList<String> data = new ArrayList<String>();
@@ -123,9 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 m.put("attribute", item); //
                 childDataItem.add(m);
                 childData.add(childDataItem);
-
             }
-
 
             String groupFrom[] = new String[] {"date"};
             int groupTo[] = new int[] {android.R.id.text1};
